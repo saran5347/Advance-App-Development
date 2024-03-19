@@ -1,0 +1,28 @@
+
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+.sec {
+  color: #06dec8; /* Change the color to your desired color */
+  padding-left: 530px;
+  padding-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons button {
+  flex: 1;
+}
