@@ -1,0 +1,54 @@
+  /* Import the same CSS styles as your PrivacyPolicy.css */
+
+    .about-us-container {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Set height to viewport height */
+      }
+      
+
+  .about-us-container:hover {
+    transform: scale(1.02);
+  }
+
+  /* Center the content vertically and horizontally */
+  .about-us-container {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .about-us {
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+  }
+
+  .about-us:hover {
+    background-color: #f0f0f0;
+  }
+
+  .about-us h2 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  /* Align paragraphs in a straight line */
+  .about-us p {
+    text-align: justify;
+    padding-bottom: 20px;
+    color: #312d2d;
+    font-size: 21px;
+    line-height: 1.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /* Hover effect for paragraphs */
+  .about-us p:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }

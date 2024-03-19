@@ -1,0 +1,287 @@
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    /* background: url("zenitsu.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    min-height: 70vh;
+    background: rgba(201, 187, 187, 0.4);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: -140px;
+    display: flex;
+    justify-content: space-around;
+    width: 110%;
+    height: 100px;
+    line-height: 110px;
+    background: rgb(119, 117, 117);
+    z-index: 100;
+}
+
+.nav-logo p {
+    color: rgb(5, 5, 5);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-menu a {
+    
+    
+        /* display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px; */
+        margin: 0 1rem;
+        text-decoration: none;
+    
+        font-weight: 500;
+        color: #080808;
+        padding-bottom: 15px;
+    left: 700px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+a:hover,
+.active {
+    border-bottom: 2px solid #000000;
+}
+
+.nav-button .btn {
+    /* position: absolute; */
+    margin: 0 1rem;
+    /* bottom: 26px;
+    left:740px;
+    width: 110px;
+    height: 40px; */
+    font-size: 19px;
+    font-weight: 500;
+    background: rgba(244, 242, 242, 0.4);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.nav-button1 .btn { 
+    /* position: absolute; */
+    /* bottom: 26px;
+    left:550px;
+    width: 110px;
+    height: 40px; */
+    margin: 0 1rem;
+    font-weight: 500;
+    font-size: 19px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#registerBtn {
+    margin-left: 15px;
+}
+
+.btn.white-btn {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.btn.btn.white-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-menu-btn {
+    display: none;
+}
+
+.form-box {
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; Center the form box horizontally */
+    margin: 0 1rem;
+    width: 1550px;
+    height: 1420px;
+    overflow: hidden;
+    z-index: 2;
+    /* background: rgba(255, 255, 255, 0.3); Adjusted background color */
+    border-radius: 10px; /* Added border-radius */
+    /* background-image: url('zenitsu.jpg'); */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+
+.login-container {
+    /* display: flex;*/
+    display: flex;
+    position: absolute;
+    right: 540px;
+    width: 30%;
+    top: 180px;
+    flex-direction: column;
+}
+
+.register-container {
+    display: flex;
+    position: absolute;
+    right: 540px; 
+    width: 30%; 
+    top: 180px;
+    flex-direction: column;
+}
+.top spans {
+    position: relative;
+    top: 385px;
+    color: #000; 
+    font-size: 18px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top spans a {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000; /* Text color */
+    margin-left: 15px;
+}
+
+.top span {
+    position: relative;
+    top: 450px;
+    color: #000; 
+    font-size: 18px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top span a {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000; /* Text color */
+    margin-left: 15px;
+}
+
+header {
+    color: #000; /* Text color */
+    position: relative;
+    bottom: 25px;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.two-forms {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.input-field {
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0.8); /* Background color */
+    color: #000; /* Text color */
+    height: 45px;
+    width: 100%;
+    padding: 0 80px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+}
+
+.input-field:hover,
+.input-field:focus {
+    background: rgba(255, 255, 255, 0.85); /* Hover and focus background color */
+}
+
+::-webkit-input-placeholder {
+    color: #000; /* Placeholder text color */
+}
+
+.input-box  {
+    position: relative;
+    bottom: 20px;
+    padding-bottom: 20px;
+    left:0px;
+    color: #000; /* Icon color */
+}
+
+.submit {
+    font-size: 19px;
+    font-weight: 500;
+    color: white; /* Text color */
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.7); /* Background color */
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+/* Media queries for responsive behavior */
+@media only screen and (max-width: 400px) {
+    .nav{
+        width: 140%;
+    }
+    .nav-logo p {
+        position: relative;
+        left:150px;
+        margin: 0 1rem;
+        color: white;
+        font-size: 25px;
+        font-weight: 200;
+    }
+  
+    .nav-menu a{
+        
+        /* display: flex; */
+        /* flex-direction: row; */
+    
+        left:200px;
+    }
+    .wrapper{
+        width: 690px;
+        height: 844px;
+    }
+    .login-container{
+            position: relative;
+            left: 70px;
+            top: 500px;
+    }
+    .register-container{
+            position: relative;
+            left: 70px;
+            top: 500px;
+    }
+}
